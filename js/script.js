@@ -43,13 +43,10 @@ button.addEventListener(`click`, function () {
         console.log(realPrice);
     }
     
-    pName.innerText = nameInput;
-    pAge.innerText = ageInput;
-    pKm.innerText = kmInput;
+    // mostrala a schermo
+    pName.innerText = nameInput.value;
+    pAge.innerText = ageInput.value;
+    pKm.innerText = kmInput.value;
     pRealPrice.innerText = realPrice;
 
 });
-
-
-// mostrala a schermo
-// placeholder.innerText = realPrice;
