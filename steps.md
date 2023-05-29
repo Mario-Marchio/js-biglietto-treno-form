@@ -1,4 +1,5 @@
 - **recuperare il place holder dal DOM**
+- **chidere il nome**
 - **chiedere l'età**
 - **chiedere numero di chilometri**
 - **calcolare il costo del biglietto**
