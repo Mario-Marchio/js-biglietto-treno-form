@@ -2,13 +2,13 @@ console.log(`JS OK`);
 
 // recupero placeholder dal dom 
 const button = document.getElementById(`button`);
-console.log(button);
-const nameInput = document.getElementById(`nome`);
-console.log(name);
+const nameInput = document.getElementById(`name`);
 const ageInput = document.getElementById(`age`);
-console.log(age);
 const kmInput = document.getElementById(`km`);
-console.log(km);
+const pName = document.getElementById(`p-name`);
+const pAge = document.getElementById(`p-age`);
+const pKm = document.getElementById(`p-km`);
+const pRealPrice = document.getElementById(`p-final-price`);
 
 button.addEventListener(`click`, function () {
 
@@ -42,7 +42,11 @@ button.addEventListener(`click`, function () {
         realPrice = price.toFixed(2);
         console.log(realPrice);
     }
-
+    
+    pName.innerText = nameInput;
+    pAge.innerText = ageInput;
+    pKm.innerText = kmInput;
+    pRealPrice.innerText = realPrice;
 
 });
 
